@@ -1,0 +1,6 @@
+.vs/
+.vscode/
+packages/
+
+*.obj
+*.exe
