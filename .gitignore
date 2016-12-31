@@ -3,6 +3,8 @@
 packages/
 obj/
 bin/
+Components/
+Tools/
 
 *.obj
 *.exe
