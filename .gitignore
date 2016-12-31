@@ -1,6 +1,8 @@
 .vs/
 .vscode/
 packages/
+obj/
+bin/
 
 *.obj
 *.exe
