@@ -1,7 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DailyTick.StatisticPage"
-             Title="统计">
-  <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+             x:Class="DailyTick.Pages.StatisticPage"
+             xmlns:views="clr-namespace:DailyTick.Views;assembly=DailyTick"
+             Title="统计"
+             Padding="0,20,0,0">
+  <ContentPage.Content>
+    <views:HybridWebView x:Name="hybridWebView" Uri="www/index.html"
+                         HorizontalOptions="FillAndExpand"
+                         VerticalOptions="FillAndExpand" />
+  </ContentPage.Content>
 </ContentPage>

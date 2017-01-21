@@ -1,11 +1,10 @@
 ﻿using System;
-using Xamarin.Forms;
 
 namespace DailyTick.Pages
 {
-    public partial class StatisticPage : ContentPage
+    public partial class SplitPage : Rg.Plugins.Popup.Pages.PopupPage
     {
-        public StatisticPage()
+        public SplitPage()
         {
             InitializeComponent();
         }

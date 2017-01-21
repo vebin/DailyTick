@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DailyTick.Pages.EditTagsPage">
+  <StackLayout Orientation="Vertical">
+    <StackLayout Orientation="Horizontal">
+      <Entry x:Name="entryTags"
+             Placeholder="标签之间用空格分隔"
+             HorizontalOptions="FillAndExpand"
+             TextChanged="OnTextChanged" />
+      <Button Text="保存"
+              HorizontalOptions="End"
+              BackgroundColor="Transparent" />
+    </StackLayout>
+    <ListView x:Name="listView" ItemSelected="OnSelection" />
+  </StackLayout>
+</ContentPage>
